@@ -41,7 +41,7 @@ class App extends React.Component {
     //   method: 'post',
     //   headers: {
     //     'Content-Type': 'application/json',
-    //     'Authorization' : 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjE2NTA1MDEyNCwidWlkIjozMDY3MDYxNiwiaWFkIjoiMjAyMi0wNi0xMFQyMDoyMDoyOC45NjRaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MTIyMzIzMTIsInJnbiI6InVzZTEifQ.CCucZ5od4FS8_JpkbROF7ssUCc3dVxU3cK0I5kwp-cY'
+    //     'Authorization' : ''
     //   },
     //   body: JSON.stringify({
     //     'query' : query
