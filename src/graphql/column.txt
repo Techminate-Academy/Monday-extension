@@ -1,0 +1,32 @@
+// column list
+{
+    boards(ids: 2752311453) {
+      owners {
+        id
+      }
+      columns {
+        id
+        title
+        type
+        width
+      }
+    }
+  }
+
+// column add new
+mutation {
+  create_column(board_id: 2752311453, title: "add test col", description: "adding a test column", column_type: text) {
+    id
+    title
+    type
+    description
+  }
+}
+
+
+// add value to a specific column of an specific row
+mutation {
+  change_simple_column_value(board_id: 2752311453, item_id: 2752311461, column_id: "add_test_col", value: "test value added") {
+    id
+  }
+}
